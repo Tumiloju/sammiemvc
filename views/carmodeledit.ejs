@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+
+    </title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <h1>
+        Edit a Brand Post
+    </h1>
+    <p>Edit a brand post</p>
+    <form action="/carmodel/<%= carmodelPost.id %>/edit" method="post">
+        <label for="manufacturer">Manufacturer:</label><br>
+    <input type="text" id="manufacturer" name="manufacturer" value="<%= carmodelPost.manufacturer %>"><br>
+    <label for=" model"> Model:</label><br>
+    <input type="text" id="model" name="model" value="<%= carmodelPost.model %>"><br>
+    <label for="color">Color:</label><br>
+    <input type="text" id="color" name="color" value="<%= carmodelPost.color %>"><br>
+    <label for="year"> Year:</label><br>
+    <input type="text" id="year" name="year" value="<%= carmodelPost.year %>"><br><br>
+    <input type="submit" value="Submit">
+
+    </form>
+    
+
+</body>
+
+</html>
+
+</form>
+
+
+
+</body>
+
+</html>
